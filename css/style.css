@@ -1,2 +1,65 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  color: #404040;
+  text-align: center;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/* ================
+  Topografy
+  ================*/
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: #fff;
+  margin: 2em 0;
+}
+
+h1 + p {
+  color: #f18119;
+  font-weight: 900;
+  font-size: 1.3125rem;
+}
+
+h2 {
+  font-size: 1.3125rem;
+}
+
+h2 + p {
+  color: #F18119;
+  font-weight: 900;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.top-text {
+  font-size: .625rem;
+  font-weight: 900;
+  color: #f18119;
+  text-transform: uppercase;
+  order: -1;
+}
+
+span {
+  font-weight: 900;
+}
+
+small {
+  font-size: .625rem;
+  letter-spacing: 1px;
+}
+
+/* ====================
+  Intro section
+  ===================*/
+.splash {
+  background-color: #404040;
+  background-image: url("../images/ribs.jpg");
+  padding: 0 .25em 1em;
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBRUE7RUFDSSxTQUFTO0VBQ1QsMENBQTBDO0VBQzFDLGVBQWU7RUFDZixjQUFjO0VBQ2Qsa0JBQWtCO0FDQXRCOztBREVBOzttQkNFbUI7QURDbkI7RUFDSSxrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCxhQUFhO0FDQ2pCOztBRENBO0VBQ0ksY0FBYztFQUNkLGdCQUFnQjtFQUNoQixvQkFBb0I7QUNFeEI7O0FEQUE7RUFDSSxvQkFBb0I7QUNHeEI7O0FEREE7RUFDSSxjQUFjO0VBQ2QsZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZix5QkFBeUI7RUFDekIsU0FBUztBQ0liOztBREZBO0VBQ0ksa0JBQWtCO0VBQ2xCLGdCQUFnQjtFQUNoQixjQUFjO0VBQ2QseUJBQXlCO0VBQ3pCLFNBQVM7QUNLYjs7QURIQTtFQUNJLGdCQUFnQjtBQ01wQjs7QURKQTtFQUNJLGtCQUFrQjtFQUNsQixtQkFBbUI7QUNPdkI7O0FETEE7O3NCQ1NzQjtBRE5wQjtFQUNFLHlCQUF5QjtFQUN6QiwyQ0FBMkM7RUFDM0Msb0JBQW9CO0VBQ3BCLGFBQWE7RUFDYixzQkFBc0I7QUNRMUIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
