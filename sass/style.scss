@@ -1,5 +1,7 @@
 /* Global */
-
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -23,6 +25,8 @@ h1 + p{
 }
 h2{
     font-size: 1.3125rem;
+    margin-bottom: 0;
+    margin-top: 2em;
 }
 h2 + p {
     color: #F18119;
@@ -30,6 +34,7 @@ h2 + p {
     font-size: 1rem;
     text-transform: uppercase;
     margin: 0;
+    margin-bottom: 1.5em;
 }
 .top-text{
     font-size: .625rem;
@@ -37,6 +42,9 @@ h2 + p {
     color: #f18119;
     text-transform: uppercase;
     order: -1;
+}
+.form p{
+    padding: 0 1.5em;
 }
 span{
     font-weight: 900;
@@ -51,17 +59,32 @@ small{
   .splash{
     background-color: #404040;
     background-image: url("../images/ribs.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
   }
-  h2{
-    margin-bottom: 0;
-    margin-top: 2em;
+  /* ====================
+   Media queries
+  ===================*/
+  @media (min-width: 600px) {
+    body{
+        font-size: 1.125rem;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2,
+     h1+p{
+        font-size: 1.75rem;
+    }
+    main{
+        display: flex;
+    }
+    .splash,
+    .form{
+        width: 50%;
+        min-height: 100vh;
+    }
   }
-  h2 +p{
-    margin-bottom: 1.5em;
-  }
-.form p{
-    padding: 0 1.5em;
-}
