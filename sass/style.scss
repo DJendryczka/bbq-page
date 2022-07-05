@@ -42,6 +42,10 @@ h2 + p {
     color: #f18119;
     text-transform: uppercase;
     order: -1;
+    border-top: 5px solid #f18119;
+    padding-top: 2px;
+    margin: 0;
+    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
 }
 .form p{
     padding: 0 1.5em;
@@ -83,14 +87,38 @@ small{
   .btn,
   input{
     width: 100%;
-    border-radius: .3rem;
+    border: 1px solid #404040;
+    border-radius: 5px;
     padding: .30rem;
   }
   input{
     width: 100%;
     margin-bottom: .5rem;
     text-align: center;
-   
+    transform: scale(1);
+    transition: transform 250ms;
+  }
+  input:focus{
+    transform: scale(1.1);
+  }
+  .btn{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    font-weight: 900;
+    border: 0;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+  }
+  .btn-primary{
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+    color: #fff;
+    transform: scale(1);
+    transition: transform 300ms;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus{
+    transform: scale(1.1);
   }
   
   /* ====================
