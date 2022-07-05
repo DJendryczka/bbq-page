@@ -16,7 +16,7 @@ h1{
     font-size: 2.25rem;
     font-weight: 300;
     color: #fff;
-    margin: 2em 0;
+    margin: 0;
 }
 h1 + p{
     color: #f18119;
@@ -64,7 +64,35 @@ small{
     padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
   }
+  .splash > *,
+  .form > *{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* ====================
+  Form
+  ===================*/
+  .email-colector{
+    width: 80%;
+    max-width: 300px;
+  }
+  .btn,
+  input{
+    width: 100%;
+    border-radius: .3rem;
+    padding: .30rem;
+  }
+  input{
+    width: 100%;
+    margin-bottom: .5rem;
+    text-align: center;
+   
+  }
+  
   /* ====================
    Media queries
   ===================*/
@@ -86,5 +114,10 @@ small{
     .form{
         width: 50%;
         min-height: 100vh;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
   }
